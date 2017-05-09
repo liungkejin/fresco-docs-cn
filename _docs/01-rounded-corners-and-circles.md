@@ -57,7 +57,7 @@ genericDraweeHierarchyBuilder
 
 ```java
 RoundingParams roundingParams = RoundingParams.fromCornersRadius(5f);
-roundingParams.setBorder(R.color.red, 1.0);
+roundingParams.setBorder(getResources().getColor(color.red), 1.0f);
 roundingParams.setRoundAsCircle(true);
 mSimpleDraweeView.getHierarchy().setRoundingParams(roundingParams);
 ```
